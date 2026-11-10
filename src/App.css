@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: all;
+}
+
+:root {
+  --sage-50: #eef2e9;
+  --sage-100: #dce6d4;
+  --sage-300: #a8b99a;
+  --sage-500: #829875;
+  --sage-700: #627a59;
+  --forest-800: #455b43;
+
+  --cream-50: #f7f6ef;
+  --cream-100: #f2f0e7;
+  --cream-200: #e8e3d6;
+  --beige-300: #dddccf;
+  --surface-white: #ffffff;
+
+  --text-primary: #454d40;
+  --text-secondary: #85887d;
+  --text-disabled: #b8b9ae;
+
+  --harvest-300: #e8c77d;
+  --terracotta-400: #d9957b;
+  --strawberry-400: #d98789;
+  --lavender-300: #b9a9c9;
+  --wood-500: #a78362;
+  --water-300: #a9c9d4;
+
+  --success: #72966b;
+  --warning: #d9ac54;
+  --error: #c87570;
+  --info: #78a7ba;
+
+  --font-heading: "Fraunces", serif;
+  --font-body: "Nunito", sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+
+  --shadow-card: 0 4px 16px rgba(69, 77, 64, 0.06);
+  --shadow-modal: 0 12px 36px rgba(69, 77, 64, 0.12);
+}
+
+@theme {
+  /* Colors */
+  --color-sage-50: var(--sage-50);
+  --color-sage-100: var(--sage-100);
+  --color-sage-300: var(--sage-300);
+  --color-sage-500: var(--sage-500);
+  --color-sage-700: var(--sage-700);
+  --color-forest-800: var(--forest-800);
+
+  --color-cream-50: var(--cream-50);
+  --color-cream-100: var(--cream-100);
+  --color-cream-200: var(--cream-200);
+  --color-beige-300: var(--beige-300);
+  --color-surface-white: var(--surface-white);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-disabled: var(--text-disabled);
+
+  --color-harvest-300: var(--harvest-300);
+  --color-terracotta-400: var(--terracotta-400);
+  --color-strawberry-400: var(--strawberry-400);
+  --color-lavender-300: var(--lavender-300);
+  --color-wood-500: var(--wood-500);
+  --color-water-300: var(--water-300);
+
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-error: var(--error);
+  --color-info: var(--info);
+
+  --font-heading: "Fraunces", serif;
+  --font-body: "Nunito", sans-serif;
+}

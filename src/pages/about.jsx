@@ -1,24 +1,20 @@
 import {
-  Cloudy,
+  House,
   ChartCandlestick,
   Anvil,
   UserGroup,
   ArrowLeft,
 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 const About = () => {
   const navigate = useNavigate();
 
   return (
     <div className="bg-sage-50 min-h-screen flex flex-col">
-      <div className="navbar bg-sage-50 outline-sage-100 shadow-sm sticky top-0 z-10">
-        <div className="flex p-1.5">
-          <img className="w-11 h-11" src="public\bukiran-favicon.png" />
-          <h1 className="text-text-primary font-heading font-bold text-2xl mt-1 pl-1.5">
-            FarmIndie
-          </h1>
-        </div>
+      <div className="mt-20">
+        <Navbar />
       </div>
 
       <div className="flex flex-col items-center justify-center mx-10 my-10">
@@ -44,14 +40,14 @@ const About = () => {
           <div className="card-body">
             <div className="flex items-center justify-center">
               <div className="bg-sage-100 p-2 rounded-md">
-                <Cloudy />
+                <House />
               </div>
             </div>
             <h2 className="card-title justify-center text-center">
-              Dynamic Weather
+              Decor & Customize
             </h2>
             <p className="text-center">
-              Relaxing rainstorms, autumn breezes, and sunny harvest days.
+              Arrange wooden fences, stone pathways, and garden gazebos.
             </p>
           </div>
         </div>
@@ -107,7 +103,7 @@ const About = () => {
 
       <footer className="footer sm:footer-horizontal bg-sage-500 text-neutral-content items-center p-4 mt-auto">
         <aside className="grid-flow-col items-center">
-          <img className="w-11 h-11" src="public\bukiran-favicon.png" />
+          <img className="w-11 h-11" src="/bukiran-favicon.png" />
           <p className="font-heading font-bold text-md">
             FarmIndie © {new Date().getFullYear()} - All right reserved
           </p>

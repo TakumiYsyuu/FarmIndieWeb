@@ -17,10 +17,10 @@ function LandingPage() {
         <div className="font-heading font-bold text-text-primary text-4xl">
           <p>Simple Life sa Nayon, Simula sa Bahay Kubo.</p>
         </div>
-        <p className="font-body text-text-secondary text-base mt-2 mb-3.5">
-          Plant local crops, raise farm animals, and build your dream nayon.
-          Trade city noise for quiet countryside mornings playable instantly in
-          your browser.
+        <p className="font-body text-text-secondary text-base mt-2 mb-3.5 md:text-lg">
+          Mag-tanim ng gulay, mag-alaga ng hayop, at bumuo ng tahimik na buhay
+          sa sarili mong bukid. Iwanan ang ingay ng lungsod at maranasan ang
+          totoong buhay-nayon sa iyong browser.
         </p>
         <div className="flex flex-wrap">
           <button

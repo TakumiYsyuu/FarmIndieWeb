@@ -13,7 +13,7 @@ const About = () => {
 
   return (
     <div className="bg-sage-50 min-h-screen flex flex-col">
-      <div className="mt-20">
+      <div className="mt-20 z-10">
         <Navbar />
       </div>
 

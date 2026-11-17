@@ -9,14 +9,14 @@ const login = () => {
 
   return (
     <div className="bg-sage-50 flex justify-center items-center min-h-screen">
-      <div className="bg-surface-white rounded-3xl p-7 m-5">
-        <div className="flex">
+      <div className="bg-white rounded-3xl p-7 m-5">
+        <div className="flex gap-1">
           <img className="w-12 h-12 mr-1" src="/bukiran-favicon.png" />
           <div className="flex flex-col gap-1">
             <h1 className="font-heading font-bold text-text-primary text-lg md:text-3xl">
               Welcome back, farmer!
             </h1>
-            <p className="font-body text-text-secondary text-sm ">
+            <p className="font-body text-text-secondary text-sm">
               Your little farm has been waiting for you.
             </p>
           </div>
@@ -36,7 +36,7 @@ const login = () => {
                   placeholder="your@account.com"
                   required
                   className="w-full outline-none border-none"
-                ></input>
+                />
               </div>
             </div>
 
@@ -62,7 +62,8 @@ const login = () => {
                   placeholder="********"
                   required
                   className="w-full outline-none border-none"
-                ></input>
+                />
+
                 <button
                   type="button"
                   onClick={() => setShowPassword(!ShowPassword)}
